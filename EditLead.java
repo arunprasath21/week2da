@@ -88,7 +88,8 @@ public class EditLead {
 		WebElement update = Driver.findElement(By.name("submitButton"));
 		update.click();
 		
-		
+		String title = Driver.getTitle();
+		 System.out.println(title);
 	}
 
 }

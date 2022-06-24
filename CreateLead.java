@@ -63,6 +63,9 @@ public class CreateLead{
 		
 		 WebElement createLeads = Driver.findElement(By.className("smallSubmit"));
 		 createLeads.click();
+		 
+		 String title = Driver.getTitle();
+		 System.out.println(title);
 	}
 
 }

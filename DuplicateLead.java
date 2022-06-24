@@ -83,7 +83,9 @@ public class DuplicateLead {
 		 
 		 WebElement createLeads2 = Driver.findElement(By.name("submitButton"));
 		 createLeads2.click();
-
+		 
+		 String title = Driver.getTitle();
+		 System.out.println(title);
 	}
 
 }
